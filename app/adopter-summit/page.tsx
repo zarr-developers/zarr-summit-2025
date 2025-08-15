@@ -45,23 +45,24 @@ export default function AdopterSummit() {
           </div>
           <div className="card">
             <h3>Target Organizations</h3>
-            <p>
-              <strong>Space Agencies & Research:</strong>
-            </p>
             <ul style={{ paddingLeft: "1.5rem", fontSize: "0.9rem" }}>
               <li>European Space Agency (ESA)</li>
-              <li>NASA & USGS</li>
-              <li>EUMETSAT & CNES</li>
+              <li>NASA</li>
+              <li>USGS</li>
+              <li>EUMETSAT</li>
+              <li>CNES</li>
               <li>Copernicus Programme</li>
-            </ul>
-            <p style={{ marginTop: "1rem" }}>
-              <strong>Technology & Industry:</strong>
-            </p>
-            <ul style={{ paddingLeft: "1.5rem", fontSize: "0.9rem" }}>
-              <li>NVIDIA, Google, Esri</li>
+              <li>NVIDIA</li>
+              <li>Google</li>
+              <li>Esri</li>
               <li>Climate research centers</li>
               <li>Bioinformatics institutions</li>
+              <li>...and more!</li>
             </ul>
+            <p>
+              We want to connect with you! Reach out if you're interested, or go
+              ahead and register!
+            </p>
           </div>
         </div>
 
