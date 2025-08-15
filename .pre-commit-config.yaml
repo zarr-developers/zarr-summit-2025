@@ -1,0 +1,57 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+
+    hooks:
+      - id: trailing-whitespace
+        exclude: \.html$
+      - id: end-of-file-fixer
+        exclude: \.html$
+      - id: check-added-large-files
+        args: ["--maxkb=20000"]
+      - id: check-yaml
+      - id: double-quote-string-fixer
+        exclude: \.html$
+
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: "v4.0.0-alpha.8"
+    hooks:
+      - id: prettier
+        exclude: \.html$
+
+        files: "\\.(\
+          css|less|scss\
+          |graphql|gql\
+          |html\
+          |js|jsx\
+          |json\
+          |ts|tsx\
+          |vue\
+          |yaml|yml\
+          )$"
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: "v4.0.0-alpha.8"
+    hooks:
+      - id: prettier
+
+        name: prettier-markdown
+        entry: prettier --write --parser mdx
+        files: "\\.(\
+          |md|markdown|mdown|mkdn\
+          |mdx\
+          )$"
+        # exclude files ending with .html
+        exclude: \.html$
+
+  # Lint: JS code
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: "v9.33.0" # Use the sha / tag you want to point at
+    hooks:
+      - id: eslint
+        files: \.js?$
+        types: [file]
+        additional_dependencies:
+          # Duplicated from package.json's devDependencies, otherwise pre-commit.ci
+          # does not like it
+          - eslint@8.56.0
+          - eslint-plugin-react

@@ -1,0 +1,25 @@
+{
+  "name": "zarr-summit-2025",
+  "version": "1.0.0",
+  "description": "Website for the 2025 Zarr Summit",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.10",
+    "eslint": "^9.33.0",
+    "eslint-config-next": "^15.4.6",
+    "next": "^15.4.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "typescript": "^5.9.2"
+  }
+}
