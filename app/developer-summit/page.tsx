@@ -47,6 +47,8 @@ export default function DeveloperSummit() {
               </li>
               <li>Lachlan Deakin (Zarrs Rust developer)</li>
               <li>Mark Kittisopikul (N5 developer)</li>
+              <li>Ilan Gold (Viv developer)</li>
+              <li>Vincent Dumoulin (ESRIN Engineer)</li>
             </ul>
           </div>
         </div>

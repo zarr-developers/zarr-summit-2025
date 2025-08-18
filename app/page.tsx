@@ -36,10 +36,6 @@ export default function Home() {
             <strong>Zarr Adopter Days (16-17):</strong> Bridge the gap - Zarr
             implementers and adopters collaborate
             <br />→{" "}
-            <em>
-              Register for a subset of the developer days using the full summit
-              registration link
-            </em>
           </div>
         </div>
       </section>
@@ -97,7 +93,7 @@ export default function Home() {
             <div className="card adopter-card">
               <h3>Adopter Summit (Oct 16-17)</h3>
               <p>
-                <strong>Who:</strong> People using or considering adopting Zarr{" "}
+                <strong>Who:</strong> People adopting Zarr{" "}
               </p>
               <p>
                 <strong>Focus:</strong> Collaboration and implementation
@@ -152,6 +148,9 @@ export default function Home() {
             <div className="card highlight-card">
               <h3>Full Summit (Developer + Adopter days)</h3>
               <p>
+                <strong>Register by August 22</strong>
+              </p>
+              <p>
                 <strong>Dates:</strong> October 13-17, 2025
               </p>
               <p>
@@ -174,6 +173,9 @@ export default function Home() {
             </div>
             <div className="card">
               <h3>Adopter Days Only</h3>
+              <p>
+                <strong>Register by September 12</strong>
+              </p>
               <p>
                 <strong>Dates:</strong> October 16-17, 2025
               </p>
@@ -198,16 +200,6 @@ export default function Home() {
                 </a>
               </div>
             </div>
-          </div>
-          <div
-            style={{
-              textAlign: "center",
-              marginTop: "2rem",
-              fontSize: "1.1rem",
-              fontWeight: "600",
-            }}
-          >
-            Registration Deadline: August 22, 2025
           </div>
         </div>
       </section>
