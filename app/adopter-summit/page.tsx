@@ -65,53 +65,15 @@ export default function AdopterSummit() {
             </p>
           </div>
         </div>
-
-        <div className="section">
-          <h3>Registration Options</h3>
-          <div className="grid grid-2">
-            <div className="card highlight-card">
-              <h3>Developer Summit</h3>
-              <p>
-                Join any portion of the developer sessions (Oct 13-15) and
-                adopter collaboration (Oct 16-17)
-              </p>
-              <p>
-                <strong>Ideal for:</strong> Technical leaders, implementers, and
-                organizations involved in both development and adoption
-              </p>
-              <div style={{ marginTop: "1.5rem" }}>
-                <a
-                  href="https://lu.ma/llsms183"
-                  className="cta-primary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Register for Full Summit
-                </a>
-              </div>
-            </div>
-            <div className="card">
-              <h3>Adopter Days Only</h3>
-              <p>
-                Focus exclusively on adoption, migration, and implementation
-                guidance
-              </p>
-              <p>
-                <strong>Ideal for:</strong> Organizations evaluating or
-                implementing Zarr without core development involvement
-              </p>
-              <div style={{ marginTop: "1.5rem" }}>
-                <a
-                  href="https://lu.ma/5277wsze"
-                  className="cta-primary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Register for Adopter Days
-                </a>
-              </div>
-            </div>
-          </div>
+        <div style={{ textAlign: "center", marginTop: "3rem" }}>
+          <a
+            href="https://lu.ma/5277wsze"
+            className="cta-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Register for Zarr Adopter Days
+          </a>
         </div>
       </section>
     </div>

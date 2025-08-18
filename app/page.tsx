@@ -35,7 +35,7 @@ export default function Home() {
             <br />
             <strong>Zarr Adopter Days (16-17):</strong> Bridge the gap - Zarr
             implementers and adopters collaborate
-            <br />→{" "}
+            <br />
           </div>
         </div>
       </section>

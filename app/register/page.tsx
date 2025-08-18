@@ -3,23 +3,6 @@ export default function Register() {
     <div className="container">
       <section className="section">
         <h2>Registration</h2>
-        <div
-          className="hero-subtitle"
-          style={{ textAlign: "center", marginBottom: "2rem" }}
-        >
-          Choose Your Summit Experience • Registration Deadline: August 22, 2025
-        </div>
-
-        <div className="card highlight-card" style={{ marginBottom: "1rem" }}>
-          <h3>Two Registration Options</h3>
-          <p>
-            We've designed two registration paths to accommodate different
-            levels of participation. Developers and technical leaders are
-            strongly encouraged to register for the full summit to experience
-            the complete journey from technical development to real-world
-            adoption.
-          </p>
-        </div>
 
         <div className="section" style={{ marginTop: "1rem" }}>
           <div className="grid grid-2">
@@ -32,7 +15,7 @@ export default function Register() {
                   marginBottom: "1rem",
                 }}
               >
-                October 13-17, 2025 • Recommended for Zarr implementers
+                October 13-17, 2025 (Register by August 22)
               </div>
 
               <h4 style={{ color: "#4caf50", marginBottom: "1rem" }}>
@@ -48,7 +31,7 @@ export default function Register() {
                   user community
                 </li>
                 <li>
-                  <strong>All meals:</strong> Breakfast and lunch daily, plus
+                  <strong>Meals:</strong> Breakfast and lunch daily, plus
                   coffee/tea service
                 </li>
                 <li>
@@ -64,7 +47,7 @@ export default function Register() {
                 <li>Zarr Implementers</li>
                 <li>Zarr Steering Council Members</li>
                 <li>
-                  Developers of downstream libraries relying on Zarr internals
+                  Developers of downstream libraries deeply reliant on Zarr
                 </li>
               </ul>
 
@@ -89,7 +72,7 @@ export default function Register() {
                   marginBottom: "1rem",
                 }}
               >
-                October 16-17, 2025 • Implementation Focus
+                October 16-17, 2025 (Register by September 12)
               </div>
 
               <h4 style={{ color: "#4caf50", marginBottom: "1rem" }}>
@@ -98,14 +81,10 @@ export default function Register() {
               <ul style={{ paddingLeft: "1.5rem", marginBottom: "1.5rem" }}>
                 <li>
                   <strong>Adopter Days (Oct 16-17):</strong> Migration guidance,
-                  roundtables
+                  roundtables, collaboration with implementers
                 </li>
                 <li>
                   <strong>Meals:</strong> Breakfast and lunch for both days
-                </li>
-                <li>
-                  <strong>Zarr core developer collaboration:</strong>{" "}
-                  Collaborate with Zarr implementers
                 </li>
               </ul>
 
@@ -113,8 +92,10 @@ export default function Register() {
                 Ideal For:
               </h4>
               <ul style={{ paddingLeft: "1.5rem", marginBottom: "1.5rem" }}>
-                <li>Organizations evaluating Zarr adoption</li>
-                <li>Teams using Zarr in production</li>
+                <li>Individuals evaluating Zarr for adoption</li>
+                <li>Teams already using Zarr</li>
+                <li>Teams interesting in Virtual Zarr</li>
+
               </ul>
 
               <div style={{ textAlign: "center", marginTop: "2rem" }}>
@@ -223,9 +204,14 @@ export default function Register() {
             </a>
           </div>
           <p
-            style={{ marginTop: "1.5rem", fontWeight: "600", color: "#d32f2f" }}
+            style={{ fontWeight: "600", color: "#d32f2f" }}
           >
-            Registration Deadline: August 22, 2025
+            Full summit registration deadline: August 22, 2025
+          </p>
+          <p
+            style={{ fontWeight: "600", color: "#d32f2f" }}
+          >
+            Adopter days registration deadline: September 12, 2025
           </p>
         </div>
       </section>
