@@ -17,7 +17,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Full summit registration (October 13-17)
+              Zarr developer summit (October 13-17)
             </a>
             <a
               href="https://lu.ma/5277wsze"
