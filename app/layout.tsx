@@ -25,19 +25,24 @@ export default function RootLayout({
               </div>
               <ul className="nav-menu">
                 <li>
-                  <a href="/">Home</a>
+                  <a href="/zarr-summit-2025/">Home</a>
                 </li>
                 <li>
-                  <a href="/developer-summit">Developer Summit</a>
+                  <a href="/zarr-summit-2025/developer-summit">
+                    Developer Summit
+                  </a>
                 </li>
                 <li>
-                  <a href="/adopter-summit">Adopter Summit</a>
+                  <a href="/zarr-summit-2025/adopter-summit">Adopter Summit</a>
                 </li>
                 <li>
-                  <a href="/location">Location</a>
+                  <a href="/zarr-summit-2025/location">Location</a>
                 </li>
                 <li>
-                  <a href="/register" className="register-link">
+                  <a
+                    href="/zarr-summit-2025/register"
+                    className="register-link"
+                  >
                     Register
                   </a>
                 </li>
