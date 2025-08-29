@@ -7,7 +7,7 @@ export default function DeveloperSummit() {
           className="hero-subtitle"
           style={{ textAlign: "center", marginBottom: "3rem" }}
         >
-          October 13-15, 2025 • Technical Deep-Dives • ~20 Participants Expected
+          October 13-17, 2025 • Technical Deep-Dives • ~20 Participants Expected
         </div>
 
         <div className="grid grid-2">
@@ -33,23 +33,29 @@ export default function DeveloperSummit() {
             </ul>
           </div>
           <div className="card">
-            <h3>Participants</h3>
-            <p>
-              <strong>Confirmed Participants:</strong>
-            </p>
-            <ul style={{ paddingLeft: "1.5rem", marginTop: "1rem" }}>
-              <li>Max Jones (Summit organizer, Zarr-Python developer)</li>
-              <li>Joe Hamman (Summit organizer, Zarr-Python developer)</li>
-              <li>Davis Bennett (Summit organizer, Zarr-Python developer)</li>
-              <li>
-                Norman Rzepka (Zarr-Python core developer, Steering Council
-                member)
-              </li>
-              <li>Lachlan Deakin (Zarrs Rust developer)</li>
-              <li>Mark Kittisopikul (N5 developer)</li>
-              <li>Ilan Gold (Viv developer)</li>
-              <li>Vincent Dumoulin (ESRIN Engineer)</li>
+            <h3>Represented groups</h3>
+            <ul style={{ paddingLeft: "1.5rem", fontSize: "0.9rem" }}>
+              <li>Zarr steering council</li>
+              <li>Zarr-Python</li>
+              <li>Zarrs</li>
+              <li>GDAL</li>
+              <li>Zarr.jl</li>
+              <li>Numcodecs</li>
+              <li>AnnData</li>
+              <li>VirtualiZarr</li>
+              <li>Acquire-Zarr</li>
+              <li>Icechunk</li>
+              <li>Zarr-sparse</li>
+              <li>Cubed</li>
+              <li>Nvcomp</li>
+              <li>Viv</li>
+              <li>AnnData</li>
+              <li>Xarray</li>
+              <li>...and more!</li>
             </ul>
+            <p>
+              We want to connect with you! Reach out if you have any questions!
+            </p>
           </div>
         </div>
 
@@ -92,6 +98,16 @@ export default function DeveloperSummit() {
               <p>Enable high-bandwidth codec development with focus on stabilizing specifications for
               common image compression routines and cross-language compatibility.</p>
             </div>
+            <div className="card">
+              <h3>Day 4 - October 16</h3>
+              <h4 style={{color: '#9c27b0'}}>Joint with Adopter Summit</h4>
+              <p>Collaborate with Zarr adopters to facilitate usage, learn pain-points, and strengthen connections.</p>
+            </div>
+            <div className="card">
+              <h3>Day 4 - October 17</h3>
+              <h4 style={{color: '#9c27b0'}}>Joint with Adopter Summit</h4>
+              <p>Collaborate with Zarr adopters to facilitate usage, learn pain-points, and strengthen connections.</p>
+            </div>
           </div>
         </div> */}
 
@@ -110,7 +126,7 @@ export default function DeveloperSummit() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Register for Zarr Developer Summit
+            Register for Developer Summit (Closed)
           </a>
         </div>
       </section>

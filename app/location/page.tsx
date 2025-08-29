@@ -39,9 +39,6 @@ export default function Location() {
               <h3>Included Meals</h3>
               <ul style={{ paddingLeft: "1.5rem", marginTop: "1rem" }}>
                 <li>
-                  <strong>Daily Breakfast:</strong> Catered on-site
-                </li>
-                <li>
                   <strong>Daily Lunch:</strong> Catered on-site
                 </li>
                 <li>
@@ -166,16 +163,17 @@ export default function Location() {
               <h3>Registration Requirements</h3>
               <ul style={{ paddingLeft: "1.5rem" }}>
                 <li>
-                  <strong>Full summit registration deadline:</strong> August 22, 2025
+                  <strong>Full summit registration deadline:</strong> August 22,
+                  2025
                 </li>
                 <li>
-                  <strong>Adopter days registration deadline:</strong> September 12, 2025
+                  <strong>Adopter days registration deadline:</strong> September
+                  12, 2025
                 </li>
                 <li>
-                  <strong>Travel Support:</strong> Available for full summit participants, indicate need during
-                  registration
+                  <strong>Travel Support:</strong> Available for full summit
+                  participants, indicate need during registration
                 </li>
-
 
                 <li>
                   <strong>Dietary Requirements:</strong> Specify during

@@ -31,8 +31,8 @@ export default function Register() {
                   user community
                 </li>
                 <li>
-                  <strong>Meals:</strong> Breakfast and lunch daily, plus
-                  coffee/tea service
+                  <strong>Meals:</strong> Coffee, snacks, and lunch for both
+                  days
                 </li>
                 <li>
                   <strong>Travel support eligibility:</strong> Available, please
@@ -84,7 +84,8 @@ export default function Register() {
                   roundtables, collaboration with implementers
                 </li>
                 <li>
-                  <strong>Meals:</strong> Breakfast and lunch for both days
+                  <strong>Meals:</strong> Coffee, snacks, and lunch for both
+                  days
                 </li>
               </ul>
 
@@ -95,7 +96,6 @@ export default function Register() {
                 <li>Individuals evaluating Zarr for adoption</li>
                 <li>Teams already using Zarr</li>
                 <li>Teams interesting in Virtual Zarr</li>
-
               </ul>
 
               <div style={{ textAlign: "center", marginTop: "2rem" }}>
@@ -115,7 +115,7 @@ export default function Register() {
         <div className="section" style={{ marginTop: "2rem" }}>
           <h3>Travel Support Information</h3>
           <div className="card developer-card">
-            <h3>Available for Full Summit Participants Only</h3>
+            <h3>Available for Full Summit Participants</h3>
             <div className="grid grid-2">
               <div>
                 <h4>Eligibility & Process</h4>
@@ -158,10 +158,6 @@ export default function Register() {
                   directly
                 </li>
                 <li>
-                  <strong>Travel Documentation:</strong> Support available for
-                  visa requirements
-                </li>
-                <li>
                   <strong>Group Accommodation:</strong> Contact logistics team
                 </li>
               </ul>
@@ -192,7 +188,7 @@ export default function Register() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Register for Full Summit
+              Register for Full Summit (Closed)
             </a>
             <a
               href="https://lu.ma/5277wsze"
@@ -203,14 +199,10 @@ export default function Register() {
               Register for Adopter Days Only
             </a>
           </div>
-          <p
-            style={{ fontWeight: "600", color: "#d32f2f" }}
-          >
+          <p style={{ fontWeight: "600", color: "#d32f2f" }}>
             Full summit registration deadline: August 22, 2025
           </p>
-          <p
-            style={{ fontWeight: "600", color: "#d32f2f" }}
-          >
+          <p style={{ fontWeight: "600", color: "#d32f2f" }}>
             Adopter days registration deadline: September 12, 2025
           </p>
         </div>

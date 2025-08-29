@@ -72,7 +72,7 @@ export default function AdopterSummit() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Register for Zarr Adopter Days
+            Register for Zarr Adopter Summit
           </a>
         </div>
       </section>
