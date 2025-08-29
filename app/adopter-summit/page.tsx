@@ -52,6 +52,7 @@ export default function AdopterSummit() {
               <li>EUMETSAT</li>
               <li>CNES</li>
               <li>Copernicus Programme</li>
+              <li>Janelia Research campus</li>
               <li>NVIDIA</li>
               <li>Google</li>
               <li>Esri</li>
