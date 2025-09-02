@@ -46,9 +46,6 @@ export default function Register() {
               <ul style={{ paddingLeft: "1.5rem", marginBottom: "1.5rem" }}>
                 <li>Zarr Implementers</li>
                 <li>Zarr Steering Council Members</li>
-                <li>
-                  Developers of downstream libraries deeply reliant on Zarr
-                </li>
               </ul>
 
               <div style={{ textAlign: "center", marginTop: "2rem" }}>
