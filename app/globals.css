@@ -218,6 +218,33 @@ body {
   padding: 0 2rem;
 }
 
+/* Organizers Section Styles */
+.logos-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.organization-logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(20%);
+  transition: all 0.3s ease;
+}
+
+.organization-logo:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+.organization-logo.navigation-fund {
+  height: 80px;
+}
+
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2rem;
@@ -235,5 +262,17 @@ body {
 
   .section {
     padding: 3rem 0;
+  }
+
+  .logos-section {
+    gap: 1.5rem;
+  }
+
+  .organization-logo {
+    height: 45px;
+  }
+
+  .organization-logo.navigation-fund {
+    height: 60px;
   }
 }

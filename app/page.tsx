@@ -121,6 +121,61 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="section" style={{ backgroundColor: "#f8f9fa" }}>
+        <div className="container">
+          <h2>Foundational sponsor</h2>
+          <div className="logos-section">
+            <a
+              href="https://www.navigation.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/zarr-summit-2025/the-navigation-fund-logo.png"
+                alt="The Navigation Fund"
+                className="organization-logo navigation-fund"
+              />
+            </a>
+          </div>
+          <h2>Organizers</h2>
+          <div className="logos-section">
+            <a
+              href="https://developmentseed.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/zarr-summit-2025/development-seed-logo.png"
+                alt="Development Seed"
+                className="organization-logo"
+              />
+            </a>
+            <a
+              href="https://radiant.earth/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/zarr-summit-2025/radiant-earth-logo.png"
+                alt="Radiant Earth"
+                className="organization-logo"
+              />
+            </a>
+            <a
+              href="https://earthmover.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/zarr-summit-2025/earthmover-logo.png"
+                alt="Earthmover"
+                className="organization-logo"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
