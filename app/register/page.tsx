@@ -15,7 +15,7 @@ export default function Register() {
                   marginBottom: "1rem",
                 }}
               >
-                October 13-17, 2025 (Register by August 22)
+                October 13-17, 2025 (Currently full)
               </div>
 
               <h4 style={{ color: "#4caf50", marginBottom: "1rem" }}>
@@ -55,7 +55,7 @@ export default function Register() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Register for Full Summit
+                  Join the full summit waitlist
                 </a>
               </div>
             </div>
@@ -69,7 +69,7 @@ export default function Register() {
                   marginBottom: "1rem",
                 }}
               >
-                October 16-17, 2025 (Register by September 12)
+                October 16-17, 2025 (Currently full)
               </div>
 
               <h4 style={{ color: "#4caf50", marginBottom: "1rem" }}>
@@ -102,7 +102,7 @@ export default function Register() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Register for Adopter Days Only
+                  Join the adopter days waitlist
                 </a>
               </div>
             </div>
@@ -185,7 +185,7 @@ export default function Register() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Register for Full Summit (Closed)
+              Join the full summit waitlist
             </a>
             <a
               href="https://lu.ma/5277wsze"
@@ -193,7 +193,7 @@ export default function Register() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Register for Adopter Days Only
+              Join the adopter days waitlist
             </a>
           </div>
           <p style={{ fontWeight: "600", color: "#d32f2f" }}>
