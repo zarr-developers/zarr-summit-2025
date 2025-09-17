@@ -126,7 +126,7 @@ export default function DeveloperSummit() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Register for Developer Summit (Closed)
+            Join the developer summit waitlist
           </a>
         </div>
       </section>

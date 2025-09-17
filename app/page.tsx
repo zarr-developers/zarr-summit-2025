@@ -10,17 +10,6 @@ export default function Home() {
             Zarr
           </div>
 
-          <div className="cta-buttons">
-            <a
-              href="https://lu.ma/5277wsze"
-              className="cta-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Adopter days registration (October 16-17)
-            </a>
-          </div>
-
           <div className="hero-flow">
             <strong>Zarr Developer Summit (13-17):</strong> Technical deep-dives
             and feature development
@@ -128,40 +117,6 @@ export default function Home() {
                 Strengthen connections with the user community that will sustain
                 and guide the Zarr ecosystem's growth beyond this summit.
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container">
-          <h2>Registration Information</h2>
-          <div className="grid grid-1">
-            <div className="card highlight-card">
-              <h3>Adopter Summit Registration</h3>
-              <p>
-                <strong>Register by September 12</strong>
-              </p>
-              <p>
-                <strong>Dates:</strong> October 16-17, 2025
-              </p>
-              <p>
-                <strong>Includes:</strong> Breakfasts, Lunches
-              </p>
-              <p>
-                <strong>Ideal for:</strong> Organizations evaluating or
-                implementing Zarr
-              </p>
-              <div style={{ marginTop: "1.5rem" }}>
-                <a
-                  href="https://lu.ma/5277wsze"
-                  className="cta-primary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Register for Adopter Summit
-                </a>
-              </div>
             </div>
           </div>
         </div>
