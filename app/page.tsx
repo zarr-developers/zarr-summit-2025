@@ -124,20 +124,6 @@ export default function Home() {
 
       <section className="section" style={{ backgroundColor: "#f8f9fa" }}>
         <div className="container">
-          <h2>Foundational sponsor</h2>
-          <div className="logos-section">
-            <a
-              href="https://www.navigation.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/zarr-summit-2025/the-navigation-fund-logo.png"
-                alt="The Navigation Fund"
-                className="organization-logo navigation-fund"
-              />
-            </a>
-          </div>
           <h2>Organizers</h2>
           <div className="logos-section">
             <a
@@ -171,6 +157,20 @@ export default function Home() {
                 src="/zarr-summit-2025/earthmover-logo.png"
                 alt="Earthmover"
                 className="organization-logo"
+              />
+            </a>
+          </div>
+          <h2>Foundational sponsor</h2>
+          <div className="logos-section">
+            <a
+              href="https://www.navigation.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/zarr-summit-2025/the-navigation-fund-logo.png"
+                alt="The Navigation Fund"
+                className="organization-logo navigation-fund"
               />
             </a>
           </div>
