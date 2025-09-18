@@ -39,6 +39,9 @@ export default function RootLayout({
                   <a href="/zarr-summit-2025/location">Location</a>
                 </li>
                 <li>
+                  <a href="/zarr-summit-2025/schedule">Schedule</a>
+                </li>
+                <li>
                   <a
                     href="/zarr-summit-2025/register"
                     className="register-link"
