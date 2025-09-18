@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zarr Summit Rome 2025 - Sponsor Prospectus</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+        
+        .page {
+            width: 8.5in;
+            min-height: 11in;
+            margin: 0 auto;
+            background: white;
+            position: relative;
+            page-break-after: always;
+            overflow: hidden;
+        }
+        
+        @media screen {
+            .page {
+                box-shadow: 0 0 20px rgba(0,0,0,0.1);
+                margin-bottom: 20px;
+            }
+        }
+        
+        .cover {
+            background: linear-gradient(135deg, #1a365d 0%, #2d5aa0 50%, #4a90e2 100%);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            height: 11in;
+            padding: 2in 1in;
+        }
+        
+        .cover::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                radial-gradient(circle at 20% 20%, rgba(255,255,255,0.1) 1px, transparent 1px),
+                radial-gradient(circle at 80% 80%, rgba(255,255,255,0.1) 1px, transparent 1px),
+                radial-gradient(circle at 40% 40%, rgba(255,255,255,0.05) 1px, transparent 1px);
+            background-size: 30px 30px, 40px 40px, 20px 20px;
+        }
+        
+        .logo-container {
+            z-index: 2;
+            margin-bottom: 2rem;
+        }
+        
+        .zarr-logo {
+            width: 250px;
+            height: auto;
+            filter: brightness(1.1);
+        }
+        
+        .cover-title {
+            font-size: 2.5rem;
+            font-weight: 300;
+            margin-bottom: 1rem;
+            z-index: 2;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        @media print {
+        .cover-title {
+            text-shadow: none;
+            font-weight: 400; /* slightly heavier */
+            color: rgba(255,255,255,0.98); /* very slight transparency */
+            }
+        }
+        
+        .cover-subtitle {
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+            z-index: 2;
+            opacity: 0.95;
+            max-width: 85%;
+        }
+        
+        .cover-date {
+            font-size: 1.1rem;
+            font-weight: 500;
+            z-index: 2;
+            background: rgba(255,255,255,0.2);
+            padding: 0.5rem 1.5rem;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .content-page {
+            padding: 0.75in 0.75in;
+            height: 11in;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .page-header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 3px solid #4a90e2;
+            page-break-after: avoid;
+        }
+        
+        .page-title {
+            font-size: 1.8rem;
+            color: #1a365d;
+            margin-bottom: 0.25rem;
+            page-break-after: avoid;
+        }
+        
+        .section {
+            margin-bottom: 1.5rem;
+            page-break-inside: avoid;
+        }
+        
+        .section h2 {
+            color: #1a365d;
+            font-size: 1.3rem;
+            margin-bottom: 0.75rem;
+            border-left: 4px solid #4a90e2;
+            padding-left: 0.75rem;
+            page-break-after: avoid;
+        }
+        
+        .section h3 {
+            color: #2d5aa0;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            page-break-after: avoid;
+        }
+        
+        .section p {
+            margin-bottom: 0.75rem;
+            text-align: justify;
+            orphans: 3;
+            widows: 3;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #f0f8ff, #e6f3ff);
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 4px solid #4a90e2;
+            margin: 1rem 0;
+            page-break-inside: avoid;
+        }
+        
+        .highlight-box h3 {
+            margin-bottom: 0.5rem;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.75rem;
+            margin: 1rem 0;
+            page-break-inside: avoid;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 0.75rem;
+            background: #f8f9fa;
+            border-radius: 6px;
+            border: 2px solid #e9ecef;
+        }
+        
+        .stat-number {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #4a90e2;
+            line-height: 1.2;
+        }
+        
+        .stat-label {
+            font-size: 0.85rem;
+            color: #6c757d;
+            margin-top: 0.25rem;
+        }
+        
+        .benefits-list {
+            list-style: none;
+            padding: 0;
+            margin: 0.5rem 0;
+        }
+        
+        .benefits-list li {
+            margin: 0.4rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            page-break-inside: avoid;
+        }
+        
+        .benefits-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #4a90e2;
+            font-weight: bold;
+        }
+        
+        .sponsorship-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            font-size: 0.85rem;
+            border-radius: 6px;
+            overflow: hidden;
+            page-break-inside: avoid;
+        }
+
+        .sponsorship-table th,
+        .sponsorship-table td {
+            border: 1px solid #d0d0d0;
+            padding: 0.6rem 0.4rem;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .sponsorship-table th {
+            background: #1a365d;
+            color: white;
+            font-weight: 600;
+            font-size: 0.8rem;
+            line-height: 1.3;
+        }
+
+        .sponsorship-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        .sponsorship-table td:first-child {
+            text-align: left;
+            font-weight: 500;
+            color: #2c3e50;
+            font-size: 0.8rem;
+        }
+        
+        .platinum {
+            background: linear-gradient(135deg, #1a365d, #2d5aa0) !important;
+            color: white !important;
+        }
+        .gold {
+            background: linear-gradient(135deg, #d4af37, #ffd700) !important;
+            color: #1a365d !important;
+        }
+        .green {
+            background: linear-gradient(135deg, #27ae60, #2ecc71) !important;
+            color: white !important;
+        }
+        .pink {
+            background: linear-gradient(135deg, #e74c3c, #ec7063) !important;
+            color: white !important;
+        }
+        
+        .package-highlight {
+            background: linear-gradient(135deg, #1a365d, #4a90e2);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 1rem 0;
+            text-align: center;
+            page-break-inside: avoid;
+        }
+        
+        .package-highlight h2 {
+            color: white;
+            border: none;
+            padding: 0;
+            margin-bottom: 0.75rem;
+        }
+        
+        .contact-info {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 0rem;
+            page-break-inside: avoid;
+        }
+        
+        .contact-info h2 {
+            color: #1a365d;
+            border: none;
+            padding: 0;
+            margin-bottom: 0.75rem;
+        }
+        
+        .organizers {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 1.5rem 0;
+            flex-wrap: wrap;
+            gap: 1rem;
+            page-break-inside: avoid;
+        }
+        
+        .organizer-logo {
+            height: 50px;
+            opacity: 0.9;
+        }
+        
+        /* Print-specific styles */
+        @media print {
+            * {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+                color-adjust: exact !important;
+            }
+
+            @page {
+                size: letter;
+                margin: 0;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            .page {
+                margin: 0;
+                box-shadow: none;
+                page-break-after: always;
+            }
+
+            .page:last-child {
+                page-break-after: auto;
+            }
+
+            .cover {
+                height: 11in;
+                padding: 2in 1in;
+            }
+
+            .content-page {
+                padding: 0.75in 0.75in;
+                min-height: 11in;
+            }
+
+            /* Ensure sections don't break awkwardly */
+            .section {
+                page-break-inside: avoid;
+            }
+
+            .highlight-box {
+                page-break-inside: avoid;
+            }
+
+            .stats-grid {
+                page-break-inside: avoid;
+            }
+
+            .sponsorship-table {
+                page-break-inside: avoid;
+            }
+
+            .package-highlight {
+                page-break-inside: avoid;
+            }
+
+            .contact-info {
+                page-break-inside: avoid;
+            }
+
+            /* Force page breaks where needed */
+            .page-break {
+                page-break-before: always;
+            }
+
+            /* Keep headings with their content */
+            h1, h2, h3, h4, h5, h6 {
+                page-break-after: avoid;
+            }
+
+            /* Avoid orphans and widows */
+            p {
+                orphans: 3;
+                widows: 3;
+            }
+
+            /* Make sure images don't break */
+            img {
+                max-width: 100%;
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Cover Page -->
+    <div class="page cover">
+        <div class="logo-container">
+            <img src="zarr-logo.svg" alt="Zarr Logo" class="zarr-logo" style="max-width: 400px; max-height: 400px; width: auto; height: auto;" />
+        </div>
+        
+        <h1 class="cover-title">Sponsor Prospectus</h1>
+        <p class="cover-subtitle">Unlocking scalable and accessible open science on the cloud</p>
+        <div class="cover-date">October 16-17, 2025 • Rome, Italy</div>
+    </div>
+
+    <!-- Welcome Page -->
+    <div class="page content-page">
+        <div class="page-header">
+            <h1 class="page-title">Welcome to the Zarr Summit</h1>
+        </div>
+        
+        <div class="section">
+            <h2>Revolutionizing Open Science on the Cloud</h2>
+            <p>The Zarr Summit Adopter Days convene leaders from major scientific organizations with Zarr developers and implementers for 2 intensive days focused on accelerating the adoption of cloud-native data storage solutions for massive scientific datasets.</p>
+            
+            <p>From climate modeling to Earth observation to genomics research, Zarr offers unprecedented capabilities for storing and accessing multi-dimensional scientific data in the cloud. These Adopter Days provide a unique opportunity for organizations to learn directly from core developers and share their experiences with Zarr.</p>
+        </div>
+        
+        <div class="highlight-box">
+            <h3>Why Your Sponsorship Matters</h3>
+            <p>Zarr is built on community contributions. Your sponsorship enables a bright future for the project, by enabling unprecedented collaboration between major scientific organizations and the core Zarr development team.</p>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-number">60+</div>
+                <div class="stat-label">Participants</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Organizations</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">5+</div>
+                <div class="stat-label">Continents</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">20+</div>
+                <div class="stat-label">Implementers</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">2</div>
+                <div class="stat-label">Days</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">Global</div>
+                <div class="stat-label">Impact</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About the Summit -->
+    <div class="page content-page">
+        <div class="page-header">
+            <h1 class="page-title">About the Zarr Summit Adopter Days</h1>
+        </div>
+        
+        <div class="section">
+            <h2>Event Focus</h2>
+            
+            <div class="highlight-box">
+                <h3>Adopter Days (October 16-17)</h3>
+                <p>Two intensive days bringing together major scientific organizations, data providers, and Zarr implementers to accelerate real-world adoption through:</p>
+                <ul class="benefits-list">
+                    <li>Roundtables with Zarr core developers and steering council</li>
+                    <li>Migration strategies and best practices sessions</li>
+                    <li>Virtual Zarr implementation guidance</li>
+                    <li>Lightning talks from current adopters</li>
+                    <li>Case study presentations from successful implementations</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Participants</h2>
+            
+            <div class="highlight-box">
+                <p>Our summit brings together an incredible diverse range of organizations, including:</p>
+                <ul class="benefits-list">
+                    <li><strong>Governmental Agencies:</strong> NASA, ESA, EUMETSAT, and more</li>
+                    <li><strong>Research Institutions:</strong> Climate prediction centers, genomics labs, and more</li>
+                    <li><strong>Technology Leaders:</strong> CloudFerro, NVIDIA, Google, and more</li>
+                    <li><strong>Zarr Core Team:</strong> Leading developers and steering council members</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Expected Outcomes</h2>
+            <p>The Adopter Days will provide a groundwork for future innovation:</p>
+            <ul class="benefits-list">
+                <li>Best practices guidance for petabyte-scale deployments</li>
+                <li>Roadmap for future Zarr development and implementer support</li>                
+            </ul>
+        </div>
+    </div>
+
+    <!-- Sponsorship Levels -->
+    <div class="page content-page">
+        <div class="page-header">
+            <h1 class="page-title">Sponsorship Packages</h1>
+        </div>
+        
+        <table class="sponsorship-table">
+            <thead>
+                <tr>
+                    <th style="text-align: left;">Benefits</th>
+                    <th class="platinum">Platinum<br>$50,000</th>
+                    <th class="gold">Gold<br>$10,000</th>
+                    <th class="green">Lunch<br>$5,000</th>
+                    <th class="pink">Break<br>$2,500</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Logo on Zarr Summit website</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                </tr>
+                <tr>
+                    <td>Social media mentions on LinkedIn</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                </tr>
+                <tr>
+                    <td>Verbal thank you during opening remarks</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                </tr>
+                <tr>
+                    <td>Prominent logo display on event signage</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Logo on event t-shirt</td>
+                    <td>✓</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Logo on event lanyards</td>
+                    <td></td>
+                    <td>✓</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Dedicated email announcing sponsorship</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Recognition via signage during sponsored time</td>
+                    <td>Full event</td>
+                    <td>Full event</td>
+                    <td>Lunch</td>
+                    <td>Break</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="section">
+            <h2>Custom Sponsorship Opportunities</h2>
+            <p>We welcome discussions about custom sponsorship packages tailored to your organization's specific goals and budget. Additional opportunities include:</p>
+            
+            <ul class="benefits-list">
+                <li>Evening reception sponsorship</li>
+                <li>Welcome bag and swag sponsorship</li>
+                <li>Live streaming and documentation support</li>
+                <li>Travel scholarship funding</li>
+            </ul>
+            
+            <p><strong>Important note:</strong> All overflow funds will support continuing Zarr development efforts, ensuring your investment has lasting impact beyond the summit.</p>
+        </div>
+    </div>
+
+    <!-- Contact & Next Steps -->
+    <div class="page content-page">
+        <div class="page-header">
+            <h1 class="page-title">Join Us in Rome</h1>
+        </div>
+        
+        <div class="package-highlight">
+            <h2>Build the future of scalable open science</h2>
+            <p>These Adopter Days represent a unique opportunity for organizations to accelerate their transition to cloud-native data solutions. The guidance received and connections made will improve how your organization manages and analyzes massive datasets.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Organizers</h2>
+            <div class="organizers">
+                <div style="text-align: center;">
+                    <img src="re-logo-26383A.png" alt="Radiant Earth" style="max-width: 200px; max-height: 50px; width: auto; height: auto;" />
+                </div>
+                <div style="text-align: center;">
+                    <img src="development-seed-logo.png" alt="Development Seed" style="max-width: 200px; max-height: 50px; width: auto; height: auto;" />
+                </div>
+                <div style="text-align: center;">
+                    <img src="earthmover-logo.png" alt="Earthmover" style="max-width: 200px; max-height: 50px; width: auto; height: auto;" />
+                </div>
+            </div>
+            <h2>Foundational Sponsor</h2>
+            <div class="organizers">
+                <div style="text-align: center;">
+                    <img src="the-navigation-fund-logo.png" alt="The Navigation Fund" style="max-width: 220px; max-height: 90px; width: auto; height: auto;" />
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact-info">
+            <h2>Ready to Sponsor?</h2>
+            <p>Contact us today to discuss sponsorship opportunities and contribute to this important gathering for scalable open science.</p>
+            <br>
+            <p><strong>Max Jones</strong><br>
+            Summit Leader<br>
+            Email: <a href="mailto:max@developmentseed.org">max@developmentseed.org</a></p>
+            <br>
+            <p><strong>Summit Website:</strong> <a href="https://zarr.dev/zarr-summit-2025/">zarr.dev/zarr-summit-2025</a><br>
+            <strong>Dates:</strong> October 16-17, 2025<br>
+            <strong>Location:</strong> Rome, Italy</p>
+        </div>
+    </div>
+</body>
+</html>
