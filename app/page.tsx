@@ -157,7 +157,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <img
-                src="/zarr-summit-2025/radiant-earth-logo.png"
+                src="/zarr-summit-2025/re-logo-26383A.png"
                 alt="Radiant Earth"
                 className="organization-logo"
               />
