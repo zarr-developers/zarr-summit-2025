@@ -152,13 +152,13 @@ export default function Home() {
               />
             </a>
             <a
-              href="https://radiant.earth/"
+              href="https://cloudnativegeo.org/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src="/zarr-summit-2025/re-logo-26383A.png"
-                alt="Radiant Earth"
+                src="/zarr-summit-2025/cng-3d-2126F7.png"
+                alt="Cloud-Native Geospatial Forum (CNG)"
                 className="organization-logo"
               />
             </a>

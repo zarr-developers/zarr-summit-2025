@@ -218,12 +218,22 @@ body {
   padding: 0 2rem;
 }
 
+.footer-container a {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-container a:hover {
+  color: #3498db;
+  text-decoration: none;
+}
+
 /* Organizers Section Styles */
 .logos-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 7rem;
   margin: 2rem 0;
   flex-wrap: wrap;
 }
