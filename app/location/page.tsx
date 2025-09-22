@@ -296,7 +296,7 @@ export default function Location() {
                 </li>
                 <li>
                   <strong>Logistics:</strong> Michelle Roby, Louisa Diggs
-                  (Radiant Earth)
+                  (Cloud-Native Geospatial Forum)
                 </li>
                 <li>
                   <strong>Emergency Contacts:</strong> Will be provided to
