@@ -255,7 +255,7 @@ export default function Location() {
                   fontStyle: "italic",
                 }}
               >
-                Travel funding logistics managed by Radiant Earth team.
+                Travel funding logistics managed by Cloud-Native Geospatial Forum (CNG) team.
                 Information will be provided to registered participants who
                 request travel support.
               </p>

@@ -140,7 +140,7 @@ export default function Register() {
                 <li style={{ marginTop: "1rem" }}>
                   <strong>Logistics Organizers:</strong>
                 </li>
-                <li>Michelle Roby & Louisa Diggs (Radiant Earth)</li>
+                <li>Michelle Roby & Louisa Diggs (CNG)</li>
               </ul>
             </div>
             <div className="card">
