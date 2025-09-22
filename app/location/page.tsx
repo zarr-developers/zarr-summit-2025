@@ -92,6 +92,9 @@ export default function Location() {
 
         <div className="section" id="hotels">
           <h3>Hotel Recommendations</h3>
+          <p style={{ fontSize: "1rem", marginBottom: "0.5rem" }}>
+            Below are some hotels near the venue with a review score above 8 on Booking.com
+          </p>
           <div className="card">
             <div className="grid grid-2" style={{ marginBottom: "1.5rem" }}>
               <div
@@ -153,43 +156,17 @@ export default function Location() {
               >
                 <h4 style={{ marginBottom: "0.5rem" }}>
                   <a
-                    href="https://www.hotellaurentia.com/"
+                    href="https://www.hoteltheliberty.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ color: "#0066cc", textDecoration: "underline" }}
                   >
-                    Hotel Laurentia
+                    The Liberty
                   </a>
                 </h4>
                 <p style={{ fontSize: "0.9rem", marginBottom: "0.5rem" }}>
-                  <strong>Distance:</strong> 1.4 km
-                  <br />
-                  <strong>Average price:</strong> €146/night
-                  <br />
-                </p>
-              </div>
-            </div>
-            <div className="grid grid-2" style={{ marginBottom: "1.5rem" }}>
-              <div
-                style={{
-                  padding: "1rem",
-                  border: "1px solid #ddd",
-                  borderRadius: "4px",
-                }}
-              >
-                <h4 style={{ marginBottom: "0.5rem" }}>
-                  <a
-                    href="https://www.bbcasavicenza.com/en/home/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ color: "#0066cc", textDecoration: "underline" }}
-                  >
-                    Casa Vicenza
-                  </a>
-                </h4>
-                <p style={{ fontSize: "0.9rem", marginBottom: "0.5rem" }}>
-                  <strong>Distance:</strong> 280 m<br />
-                  <strong>Average price:</strong> €146/night
+                  <strong>Distance:</strong> 600 m<br />
+                  <strong>Average price:</strong> €393/night
                   <br />
                 </p>
               </div>
@@ -204,17 +181,17 @@ export default function Location() {
               >
                 <h4 style={{ marginBottom: "0.5rem" }}>
                   <a
-                    href="https://www.hotelmorgana.com/en/"
+                    href="https://www.terrazzamagenta.it/"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ color: "#0066cc", textDecoration: "underline" }}
                   >
-                    Hotel Morgana
+                    Terrazza Magenta
                   </a>
                 </h4>
                 <p style={{ fontSize: "0.9rem", marginBottom: "0.5rem" }}>
-                  <strong>Distance:</strong> 900 m<br />
-                  <strong>Average price:</strong> €181/night
+                  <strong>Distance:</strong> 290 m<br />
+                  <strong>Average price:</strong> €149/night
                   <br />
                 </p>
               </div>
