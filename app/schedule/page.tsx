@@ -134,11 +134,11 @@ export default function Schedule() {
           style={{ marginTop: "0", marginBottom: "0", paddingTop: "0" }}
         >
           <h3>Adopter Days: Collaboration & Implementation</h3>
-          <div className="grid grid-2">
+          <div>
             <div className="card adopter-card">
               <h3>Thursday, October 16</h3>
               <h4 style={{ color: "#4caf50", marginBottom: "1rem" }}>
-                Adopter Summit (Round-tables, panels, and Q&As)
+                Adopter Summit (Presentations, panels, and Q&As)
               </h4>
 
               <p>
@@ -148,34 +148,47 @@ export default function Schedule() {
                 <strong>9:30 AM:</strong> Opening keynotes
               </p>
               <p>
-                <strong>10:30 AM:</strong> Coffee break
+                <strong>10:45 AM:</strong> Break
               </p>
               <p>
-                <strong>11:00 AM:</strong> Zarr leaders panel
+                <strong>11:15 AM:</strong> Technical presentations: Zarr
+                applications
+              </p>
+              <p>
+                <strong>11:45 AM:</strong> Audience Q&A
               </p>
               <p>
                 <strong>12:00 PM:</strong> Lunch (catered)
               </p>
               <p>
-                <strong>1:00 PM:</strong> Technical presentations
+                <strong>1:00 PM:</strong> Technical presentations: Tools
+                leveraging the Zarr data format
               </p>
               <p>
-                <strong>3:00 PM:</strong> Coffee break
+                <strong>2:00 PM:</strong> Panel: Zarr in Production
               </p>
               <p>
-                <strong>3:30 PM:</strong> Q&A with core developers
+                <strong>2:40 PM:</strong> Break
               </p>
               <p>
-                <strong>4:00 PM:</strong> Adopter lightning talks
+                <strong>3:15 PM:</strong> Technical presentations: Featured
+                use-cases
               </p>
               <p>
-                <strong>4:45 PM:</strong> Wrap up & workshop previews
+                <strong>4:15 PM:</strong> Open Discussion: What does the
+                community need from Zarr?
+              </p>
+              <p>
+                <strong>4:45 PM:</strong> Wrap up & day 2 previews
               </p>
               <p>
                 <strong>5:00 PM:</strong> Day conclusion
               </p>
+              <p>
+                <strong>5:30 PM:</strong> Networking reception
+              </p>
             </div>
-            <div className="card adopter-card">
+            <div className="card adopter-card" style={{ marginTop: "2rem" }}>
               <h3>Friday, October 17</h3>
               <h4 style={{ color: "#4caf50", marginBottom: "1rem" }}>
                 Adopter Summit (workshops and breakout sessions)
@@ -185,31 +198,65 @@ export default function Schedule() {
                 <strong>9:00 AM:</strong> Registration & welcome coffee
               </p>
               <p>
-                <strong>9:30 AM:</strong> Technical workshops
+                <strong>9:10 AM:</strong> Lightning Talks
               </p>
               <p>
-                <strong>10:30 AM:</strong> Coffee break
+                <strong>10:00 AM:</strong> Workshop Session 1
+              </p>
+              <ul style={{ marginLeft: "1.5rem" }}>
+                <li>Choosing if Zarr is Right for You</li>
+                <li>Icechunk Deep Dive</li>
+              </ul>
+              <p>
+                <strong>11:20 AM:</strong> Break
               </p>
               <p>
-                <strong>11:00 AM:</strong> Technical workshops (continued)
+                <strong>11:35 AM:</strong> Workshop Session 2
+              </p>
+              <ul style={{ marginLeft: "1.5rem" }}>
+                <li>Virtual Zarr for archival file formats</li>
+                <li>Optimizing Zarr Performance</li>
+              </ul>
+              <p>
+                <strong>1:00 PM:</strong> Lunch (catered)
               </p>
               <p>
-                <strong>12:00 PM:</strong> Lunch (catered)
+                <strong>2:00 PM:</strong> Introduction to breakout sessions
               </p>
               <p>
-                <strong>1:00 PM:</strong> Breakout sessions
+                <strong>2:10 PM:</strong> Birds of a feather
+              </p>
+              <ul style={{ marginLeft: "1.5rem" }}>
+                <li>Earth observation</li>
+                <li>Microscopy</li>
+                <li>Machine Learning</li>
+                <li>Weather forecasting and climate modeling</li>
+              </ul>
+              <p>
+                <strong>3:15 PM:</strong> Break <em>(15 minutes)</em>
               </p>
               <p>
-                <strong>3:00 PM:</strong> Coffee break
+                <strong>3:30 PM:</strong> Extending Zarr Breakouts
+              </p>
+              <ul style={{ marginLeft: "1.5rem" }}>
+                <li>Registered attributes</li>
+                <li>Data types</li>
+                <li>Codecs</li>
+                <li>Chunk grids</li>
+              </ul>
+              <p>
+                <strong>4:00 PM:</strong> Language/Technical Breakouts
+              </p>
+              <ul style={{ marginLeft: "1.5rem" }}>
+                <li>Zarr in Rust</li>
+                <li>Zarr in Python</li>
+                <li>Zarr in R</li>
+              </ul>
+              <p>
+                <strong>4:30 PM:</strong> Closing Remarks
               </p>
               <p>
-                <strong>3:30 PM:</strong> Zarr community planning
-              </p>
-              <p>
-                <strong>4:15 PM:</strong> Closing remarks
-              </p>
-              <p>
-                <strong>4:30 PM:</strong> Summit conclusion
+                <strong>4:45 PM:</strong> Summit conclusion
               </p>
             </div>
           </div>
@@ -231,7 +278,7 @@ export default function Schedule() {
             <strong>Registration Deadline:</strong> September 12, 2025
           </p>
           <p>
-            <strong>Pre-summit Materials Distribution:</strong> October 6, 2025
+            <strong>Pre-summit Materials Distribution:</strong> October 10, 2025
           </p>
         </div>
       </section>
