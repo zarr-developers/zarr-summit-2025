@@ -168,7 +168,7 @@ export default function Schedule() {
                 <strong>2:00 PM:</strong> Panel: Zarr in Production
               </p>
               <p>
-                <strong>2:40 PM:</strong> Break
+                <strong>2:45 PM:</strong> Break
               </p>
               <p>
                 <strong>3:15 PM:</strong> Technical presentations: Featured
@@ -185,7 +185,7 @@ export default function Schedule() {
                 <strong>5:00 PM:</strong> Day conclusion
               </p>
               <p>
-                <strong>5:30 PM:</strong> Networking reception
+                <strong>5:30 - 7:30 PM:</strong> Networking reception
               </p>
             </div>
             <div className="card adopter-card" style={{ marginTop: "2rem" }}>
@@ -198,33 +198,30 @@ export default function Schedule() {
                 <strong>9:00 AM:</strong> Registration & welcome coffee
               </p>
               <p>
-                <strong>9:10 AM:</strong> Lightning Talks
-              </p>
-              <p>
-                <strong>10:00 AM:</strong> Workshop Session 1
+                <strong>9:10 AM:</strong> Workshop Session 1
               </p>
               <ul style={{ marginLeft: "1.5rem" }}>
                 <li>Choosing if Zarr is Right for You</li>
                 <li>Icechunk Deep Dive</li>
               </ul>
               <p>
-                <strong>11:20 AM:</strong> Break
+                <strong>10:30 AM:</strong> Break
               </p>
               <p>
-                <strong>11:35 AM:</strong> Workshop Session 2
+                <strong>10:45 AM:</strong> Workshop Session 2
               </p>
               <ul style={{ marginLeft: "1.5rem" }}>
                 <li>Virtual Zarr for archival file formats</li>
                 <li>Optimizing Zarr Performance</li>
               </ul>
               <p>
-                <strong>1:00 PM:</strong> Lunch (catered)
+                <strong>12:00 PM:</strong> Lunch (catered)
               </p>
               <p>
-                <strong>2:00 PM:</strong> Introduction to breakout sessions
+                <strong>1:00 PM:</strong> Lightning Talks
               </p>
               <p>
-                <strong>2:10 PM:</strong> Birds of a feather
+                <strong>2:00 PM:</strong> Birds of a feather
               </p>
               <ul style={{ marginLeft: "1.5rem" }}>
                 <li>Earth observation</li>
