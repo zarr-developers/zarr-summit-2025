@@ -147,6 +147,10 @@ export default function Schedule() {
               <p>
                 <strong>9:30 AM:</strong> Opening keynotes
               </p>
+              <ul style={{ marginLeft: "1.5rem" }}>
+                <li>Davis Bennett - From A to Zarr</li>
+                <li>Ryan Abernathey - What we need from Zarr 4</li>
+              </ul>
               <p>
                 <strong>10:45 AM:</strong> Break
               </p>
@@ -154,6 +158,10 @@ export default function Schedule() {
                 <strong>11:15 AM:</strong> Technical presentations: Zarr
                 applications
               </p>
+              <ul style={{ marginLeft: "1.5rem" }}>
+                <li>Joe Hamman - How to make Zarr go zoom zoom</li>
+                <li>Max Jones - The GeoZarr challenge</li>
+              </ul>
               <p>
                 <strong>11:45 AM:</strong> Audience Q&A
               </p>
@@ -164,6 +172,17 @@ export default function Schedule() {
                 <strong>1:00 PM:</strong> Technical presentations: Tools
                 leveraging the Zarr data format
               </p>
+              <ul style={{ marginLeft: "1.5rem" }}>
+                <li>Lachlan Deakin - zarrs: Zarr in the Rust Ecosystem</li>
+                <li>
+                  Sebastian Galkin - Icechunk, or how to put your Zarr data in
+                  production
+                </li>
+                <li>
+                  Tom Nicholas - VirtualiZarr: A bridge from archival file
+                  formats to Zarr
+                </li>
+              </ul>
               <p>
                 <strong>2:00 PM:</strong> Panel: Zarr in Production
               </p>
@@ -174,6 +193,17 @@ export default function Schedule() {
                 <strong>3:15 PM:</strong> Technical presentations: Featured
                 use-cases
               </p>
+              <ul style={{ marginLeft: "1.5rem" }}>
+                <li>Norman Rzepka - Zarr for peta-scale neurobiology</li>
+                <li>
+                  Alessandro Amici - The Earth Data Hub: Fast access to massive
+                  climate and Earth observation datasets using Xarray and Zarr
+                </li>
+                <li>
+                  Tobias Ferreira - Experiments at NOC with Browser-Based Zarr
+                  Visualization
+                </li>
+              </ul>
               <p>
                 <strong>4:15 PM:</strong> Open Discussion: What does the
                 community need from Zarr?
@@ -198,7 +228,7 @@ export default function Schedule() {
                 <strong>9:00 AM:</strong> Registration & welcome coffee
               </p>
               <p>
-                <strong>9:10 AM:</strong> Workshop Session 1
+                <strong>9:10 AM:</strong> Workshop
               </p>
               <ul style={{ marginLeft: "1.5rem" }}>
                 <li>Choosing if Zarr is Right for You</li>
@@ -208,7 +238,7 @@ export default function Schedule() {
                 <strong>10:30 AM:</strong> Break
               </p>
               <p>
-                <strong>10:45 AM:</strong> Workshop Session 2
+                <strong>10:45 AM:</strong> Workshop
               </p>
               <ul style={{ marginLeft: "1.5rem" }}>
                 <li>Virtual Zarr for archival file formats</li>
