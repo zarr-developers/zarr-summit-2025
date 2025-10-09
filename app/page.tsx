@@ -145,7 +145,6 @@ export default function Home() {
               <img
                 src="/zarr-summit-2025/cng-3d-2126F7.png"
                 alt="Cloud-Native Geospatial Forum (CNG)"
-
                 className="organization-logo"
               />
             </a>
@@ -172,6 +171,20 @@ export default function Home() {
                 src="/zarr-summit-2025/the-navigation-fund-logo.png"
                 alt="The Navigation Fund"
                 className="organization-logo navigation-fund"
+              />
+            </a>
+          </div>
+          <h2>Coffee break sponsors</h2>
+          <div className="logos-section">
+            <a
+              href="https://www.bopen.eu/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://www.bopen.eu/wp-content/uploads/2020/02/logo-bopen.png"
+                alt="B-Open"
+                className="organization-logo"
               />
             </a>
           </div>
