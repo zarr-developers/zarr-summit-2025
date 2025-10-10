@@ -3,37 +3,45 @@ export default function Location() {
     <div className="container">
       <section className="section">
         <h2>Location & Logistics</h2>
-        <div
-          className="hero-subtitle"
-          style={{ textAlign: "center", marginBottom: "3rem" }}
-        >
+        <div className="hero-subtitle" style={{ textAlign: "center" }}>
           Rome, Italy • October 13-17, 2025
-        </div>
-
-        <div className="card highlight-card" style={{ marginBottom: "0.5rem" }}>
-          <h3>Why Rome?</h3>
-          <p>
-            Rome provides the perfect setting for this crucial summit, combining
-            accessibility for our global community with the inspiring atmosphere
-            needed for breakthrough collaboration. The city's location makes it
-            convenient for both European and international participants, while
-            the timing aligns with the concurrent STAC Sprint for maximum
-            community impact.
-          </p>
         </div>
 
         <div
           className="section"
           style={{
-            marginTop: "1rem",
-            marginBottom: "1rem",
-            paddingTop: "1rem",
-            paddingBottom: "1rem",
+            marginTop: "0.5rem",
+            marginBottom: "0.5rem",
+            paddingTop: "0.5rem",
+            paddingBottom: "0.5rem",
+          }}
+        >
+          <h3>Why Rome?</h3>
+          <div className="card highlight-card">
+            <p>
+              Rome provides the perfect setting for this crucial summit,
+              combining accessibility for our global community with the
+              inspiring atmosphere needed for breakthrough collaboration. The
+              city's location makes it convenient for both European and
+              international participants, while the timing aligns with the
+              concurrent STAC Sprint for maximum community impact.
+            </p>
+          </div>
+        </div>
+
+        <div
+          className="section"
+          style={{
+            marginTop: "0.5rem",
+            marginBottom: "0.5rem",
+            paddingTop: "0.5rem",
+            paddingBottom: "0.5rem",
           }}
         >
           <h3>Venue Information</h3>
           <div className="card">
-            <h4>
+            <h4 style={{ paddingBottom: "0.5rem" }}>
+              The Zarr summit will be hosted at the{" "}
               <a
                 href="https://zestgroup.vc/en/thehub"
                 target="_blank"
@@ -42,13 +50,8 @@ export default function Location() {
               >
                 Zest Hub
               </a>
+              , a modern co-working and event space!
             </h4>
-            <p>
-              <strong>About the Venue:</strong>
-              <br />
-              Zest Hub is modern co-working and event space
-            </p>
-            <p style={{ marginBottom: "1rem" }}></p>
             <p>
               <strong>Getting to Zest Hub:</strong>
               <br />
@@ -62,17 +65,17 @@ export default function Location() {
         <div
           className="section"
           style={{
-            marginTop: "1rem",
-            marginBottom: "1rem",
-            paddingTop: "1rem",
-            paddingBottom: "1rem",
+            marginTop: "0.5rem",
+            marginBottom: "0.5rem",
+            paddingTop: "0.5rem",
+            paddingBottom: "0.5rem",
           }}
         >
           <h3>Catering & Meals</h3>
-          <div className="grid grid-2">
-            <div className="card adopter-card">
+          <div className="grid grid-2" style={{ marginBottom: "0.5rem" }}>
+            <div className="card">
               <h3>Included Meals</h3>
-              <ul style={{ paddingLeft: "1.5rem", marginTop: "1rem" }}>
+              <ul style={{ paddingLeft: "1.5rem" }}>
                 <li>
                   <strong>Daily Lunch:</strong> Catered on-site
                 </li>
@@ -88,7 +91,7 @@ export default function Location() {
             </div>
             <div className="card">
               <h3>Special Events</h3>
-              <ul style={{ paddingLeft: "1.5rem", marginTop: "1rem" }}>
+              <ul style={{ paddingLeft: "1.5rem" }}>
                 <li>
                   <strong>Joint Happy Hour:</strong> Wednesday evening (Oct 15)
                   with STAC Sprint participants
@@ -109,78 +112,42 @@ export default function Location() {
         <div
           className="section"
           style={{
-            marginTop: "1rem",
-            marginBottom: "1rem",
-            paddingTop: "1rem",
-            paddingBottom: "1rem",
+            marginTop: "0.5rem",
+            marginBottom: "0.5rem",
+            paddingTop: "0.5rem",
+            paddingBottom: "0.5rem",
           }}
         >
-          <h3>Transportation</h3>
-          <div className="grid grid-3">
-            <div className="card">
-              <h3>Getting to Rome</h3>
-              <p>
-                <strong>Airports:</strong>
-              </p>
-              <ul style={{ paddingLeft: "1.5rem", fontSize: "0.9rem" }}>
-                <li>Leonardo da Vinci (FCO) - Main international airport</li>
-                <li>
-                  Ciampino (CIA) - Secondary airport, primarily low-cost
-                  carriers
-                </li>
-              </ul>
-
-              <p style={{ marginTop: "1.5rem" }}>
-                <strong>Train Services:</strong>
-              </p>
-              <ul style={{ paddingLeft: "1.5rem", fontSize: "0.9rem" }}>
-                <li>Roma Termini (central)</li>
-                <li>Roma Tiburtina (high-speed hub)</li>
-              </ul>
-            </div>
-            <div className="card">
-              <h3>Travel Support</h3>
-              <p
-                style={{
-                  marginTop: "1rem",
-                  fontSize: "0.9rem",
-                  fontStyle: "italic",
-                }}
-              >
-                Travel funding logistics managed by Cloud-Native Geospatial
-                Forum (CNG) team. Information will be provided to registered
-                participants who request travel support.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="card highlight-card">
           <h3>STAC Sprint Coordination</h3>
-          <p>
-            The Zarr Summit is strategically timed to coincide with the STAC
-            (SpatioTemporal Asset Catalog) Sprint happening in Rome during
-            October 13-16. This creates unique opportunities for:
-          </p>
-          <ul style={{ paddingLeft: "1.5rem", marginTop: "1rem" }}>
-            <li>Joint happy hour</li>
-            <li>Cross-community collaboration sessions on Friday October 17</li>
-            <li>Shared outcomes and future planning discussions</li>
-            <li>Broader ecosystem impact through combined events</li>
-          </ul>
-          <p style={{ marginTop: "1rem", fontStyle: "italic" }}>
-            This coordination maximizes the value of international travel while
-            fostering connections between complementary open-source communities.
-          </p>
+          <div className="card highlight-card">
+            <p>
+              The Zarr Summit is strategically timed to coincide with the STAC
+              (SpatioTemporal Asset Catalog) Sprint happening in Rome during
+              October 13-16. This creates unique opportunities for:
+            </p>
+            <ul style={{ paddingLeft: "1.5rem" }}>
+              <li>Joint happy hour</li>
+              <li>
+                Cross-community collaboration sessions on Friday October 17
+              </li>
+              <li>Shared outcomes and future planning discussions</li>
+              <li>Broader ecosystem impact through combined events</li>
+            </ul>
+            <p style={{ fontStyle: "italic" }}>
+              This coordination maximizes the value of international travel
+              while fostering connections between complementary open-source
+              communities.
+            </p>
+          </div>
         </div>
 
         <div
           className="section"
           style={{
-            marginTop: "1rem",
-            marginBottom: "1rem",
-            paddingTop: "1rem",
-            paddingBottom: "1rem",
+            marginTop: "0.5rem",
+            marginBottom: "0.5rem",
+            paddingTop: "0.5rem",
+            paddingBottom: "0.5rem",
           }}
         >
           <h3>Important Information</h3>
