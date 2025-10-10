@@ -10,7 +10,7 @@ export default function Schedule() {
           Five Days of Collaboration • October 13-17, 2025 • Rome, Italy
         </div>
 
-        <div className="card highlight-card" style={{ marginBottom: "2rem" }}>
+        <div className="card highlight-card">
           <h3>Summit Structure</h3>
           <p>
             The summit is designed as a progression from deep technical work to
@@ -19,27 +19,25 @@ export default function Schedule() {
             code to real-world impact.
           </p>
         </div>
-
-        <div
-          className="card"
-          style={{
-            backgroundColor: "#fff3cd",
-            border: "1px solid #ffeaa7",
-            marginBottom: "1rem",
-            textAlign: "center",
-          }}
-        >
-          <p style={{ margin: "0", fontStyle: "italic", color: "#856404" }}>
-            <strong>Note:</strong> This is a draft schedule and is subject to
-            change. Final details will be confirmed closer to the summit date.
-          </p>
-        </div>
         <div
           className="section"
-          style={{ marginTop: "0rem", marginBottom: "0rem" }}
+          style={{
+            marginTop: "0.5rem",
+            marginBottom: "0.5rem",
+            paddingBottom: "0.5rem",
+            paddingTop: "0.5rem",
+          }}
         >
-          <h3>Developer Days: Technical Deep-Dives</h3>
-          <div className="grid grid-3">
+          <h3>Developer Days: Technical Deep-Dives </h3>
+          <div
+            className="grid grid-3"
+            style={{
+              marginTop: "0.5rem",
+              marginBottom: "0.5rem",
+              paddingBottom: "0.5rem",
+              paddingTop: "0.5rem",
+            }}
+          >
             <div className="card developer-card">
               <h3>Monday, October 13</h3>
               <h4 style={{ color: "#9c27b0", marginBottom: "1rem" }}>
@@ -131,7 +129,12 @@ export default function Schedule() {
         </div>
         <div
           className="section"
-          style={{ marginTop: "0", marginBottom: "0", paddingTop: "0" }}
+          style={{
+            marginTop: "0rem",
+            marginBottom: "0.5rem",
+            paddingBottom: "0.5rem",
+            paddingTop: "0rem",
+          }}
         >
           <h3>Adopter Days: Collaboration & Implementation</h3>
           <div>
@@ -288,26 +291,6 @@ export default function Schedule() {
               </p>
             </div>
           </div>
-        </div>
-
-        <div
-          style={{
-            textAlign: "center",
-            marginTop: "0rem",
-            padding: "2rem",
-            backgroundColor: "#e3f2fd",
-            borderRadius: "8px",
-          }}
-        >
-          <h3 style={{ color: "#1976d2", marginBottom: "1rem" }}>
-            Important Dates
-          </h3>
-          <p style={{ fontSize: "1.1rem" }}>
-            <strong>Registration Deadline:</strong> September 12, 2025
-          </p>
-          <p>
-            <strong>Pre-summit Materials Distribution:</strong> October 10, 2025
-          </p>
         </div>
       </section>
     </div>
