@@ -278,6 +278,7 @@ export default function Schedule() {
                 <li>Zarr in Rust</li>
                 <li>Zarr in Python</li>
                 <li>Zarr in R</li>
+                <li>Zarr in Julia</li>
               </ul>
               <p>
                 <strong>4:30 PM:</strong> Closing Remarks
