@@ -187,6 +187,17 @@ export default function Home() {
                 className="organization-logo"
               />
             </a>
+            <a
+              href="http://www.geobeyond.it/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="http://www.geobeyond.it/images/geo-logo-blue.svg"
+                alt="GeoBeyond"
+                className="organization-logo"
+              />
+            </a>
           </div>
         </div>
       </section>
