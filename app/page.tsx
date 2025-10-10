@@ -193,7 +193,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <img
-                src="http://www.geobeyond.it/images/geo-logo-blue.svg"
+                src="/zarr-summit-2025/geo-logo-blue.png"
                 alt="GeoBeyond"
                 className="organization-logo"
               />
