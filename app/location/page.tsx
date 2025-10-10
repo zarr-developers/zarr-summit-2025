@@ -10,7 +10,7 @@ export default function Location() {
           Rome, Italy • October 13-17, 2025
         </div>
 
-        <div className="card highlight-card" style={{ marginBottom: "2rem" }}>
+        <div className="card highlight-card" style={{ marginBottom: "0.5rem" }}>
           <h3>Why Rome?</h3>
           <p>
             Rome provides the perfect setting for this crucial summit, combining
@@ -22,7 +22,15 @@ export default function Location() {
           </p>
         </div>
 
-        <div className="section">
+        <div
+          className="section"
+          style={{
+            marginTop: "1rem",
+            marginBottom: "1rem",
+            paddingTop: "1rem",
+            paddingBottom: "1rem",
+          }}
+        >
           <h3>Venue Information</h3>
           <div className="card">
             <h4>
@@ -51,7 +59,15 @@ export default function Location() {
           </div>
         </div>
 
-        <div className="section">
+        <div
+          className="section"
+          style={{
+            marginTop: "1rem",
+            marginBottom: "1rem",
+            paddingTop: "1rem",
+            paddingBottom: "1rem",
+          }}
+        >
           <h3>Catering & Meals</h3>
           <div className="grid grid-2">
             <div className="card adopter-card">
@@ -74,12 +90,12 @@ export default function Location() {
               <h3>Special Events</h3>
               <ul style={{ paddingLeft: "1.5rem", marginTop: "1rem" }}>
                 <li>
-                  <strong>Welcome Reception:</strong> Monday evening (Oct 12) -
-                  informal gathering
+                  <strong>Joint Happy Hour:</strong> Wednesday evening (Oct 15)
+                  with STAC Sprint participants
                 </li>
                 <li>
-                  <strong>Joint Happy Hour:</strong> Evening gathering with STAC
-                  Sprint participants
+                  <strong>Welcome Reception:</strong> Thursday evening (Oct 16)
+                  - snacks and drinks on the Zest Hub roof overlooking Rome
                 </li>
                 <li>
                   <strong>Group Dinners:</strong> Optional self-organized group
@@ -90,116 +106,15 @@ export default function Location() {
           </div>
         </div>
 
-        <div className="section" id="hotels">
-          <h3>Hotel Recommendations</h3>
-          <p style={{ fontSize: "1rem", marginBottom: "0.5rem" }}>
-            Below are some hotels near the venue with a review score above 8 on Booking.com
-          </p>
-          <div className="card">
-            <div className="grid grid-2" style={{ marginBottom: "1.5rem" }}>
-              <div
-                style={{
-                  padding: "1rem",
-                  border: "1px solid #ddd",
-                  borderRadius: "4px",
-                }}
-              >
-                <h4 style={{ marginBottom: "0.5rem" }}>
-                  <a
-                    href="https://www.hotelartemide.it/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ color: "#0066cc", textDecoration: "underline" }}
-                  >
-                    Hotel Des Artistes Roma
-                  </a>
-                </h4>
-                <p style={{ fontSize: "0.9rem", marginBottom: "0.5rem" }}>
-                  <strong>Distance:</strong> 700 m<br />
-                  <strong>Average price:</strong> €187/night
-                  <br />
-                </p>
-              </div>
-            </div>
-            <div className="grid grid-2" style={{ marginBottom: "1.5rem" }}>
-              <div
-                style={{
-                  padding: "1rem",
-                  border: "1px solid #ddd",
-                  borderRadius: "4px",
-                }}
-              >
-                <h4 style={{ marginBottom: "0.5rem" }}>
-                  <a
-                    href="https://www.hotelcameliaroma.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ color: "#0066cc", textDecoration: "underline" }}
-                  >
-                    Hotel Camelia
-                  </a>
-                </h4>
-                <p style={{ fontSize: "0.9rem", marginBottom: "0.5rem" }}>
-                  <strong>Distance:</strong> 750 m<br />
-                  <strong>Average price:</strong> €198/night
-                  <br />
-                </p>
-              </div>
-            </div>
-            <div className="grid grid-2" style={{ marginBottom: "1.5rem" }}>
-              <div
-                style={{
-                  padding: "1rem",
-                  border: "1px solid #ddd",
-                  borderRadius: "4px",
-                }}
-              >
-                <h4 style={{ marginBottom: "0.5rem" }}>
-                  <a
-                    href="https://www.hoteltheliberty.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ color: "#0066cc", textDecoration: "underline" }}
-                  >
-                    The Liberty
-                  </a>
-                </h4>
-                <p style={{ fontSize: "0.9rem", marginBottom: "0.5rem" }}>
-                  <strong>Distance:</strong> 600 m<br />
-                  <strong>Average price:</strong> €393/night
-                  <br />
-                </p>
-              </div>
-            </div>
-            <div className="grid grid-2" style={{ marginBottom: "1.5rem" }}>
-              <div
-                style={{
-                  padding: "1rem",
-                  border: "1px solid #ddd",
-                  borderRadius: "4px",
-                }}
-              >
-                <h4 style={{ marginBottom: "0.5rem" }}>
-                  <a
-                    href="https://www.terrazzamagenta.it/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ color: "#0066cc", textDecoration: "underline" }}
-                  >
-                    Terrazza Magenta
-                  </a>
-                </h4>
-                <p style={{ fontSize: "0.9rem", marginBottom: "0.5rem" }}>
-                  <strong>Distance:</strong> 290 m<br />
-                  <strong>Average price:</strong> €149/night
-                  <br />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="section">
+        <div
+          className="section"
+          style={{
+            marginTop: "1rem",
+            marginBottom: "1rem",
+            paddingTop: "1rem",
+            paddingBottom: "1rem",
+          }}
+        >
           <h3>Transportation</h3>
           <div className="grid grid-3">
             <div className="card">
@@ -232,9 +147,9 @@ export default function Location() {
                   fontStyle: "italic",
                 }}
               >
-                Travel funding logistics managed by Cloud-Native Geospatial Forum (CNG) team.
-                Information will be provided to registered participants who
-                request travel support.
+                Travel funding logistics managed by Cloud-Native Geospatial
+                Forum (CNG) team. Information will be provided to registered
+                participants who request travel support.
               </p>
             </div>
           </div>
@@ -259,7 +174,15 @@ export default function Location() {
           </p>
         </div>
 
-        <div className="section">
+        <div
+          className="section"
+          style={{
+            marginTop: "1rem",
+            marginBottom: "1rem",
+            paddingTop: "1rem",
+            paddingBottom: "1rem",
+          }}
+        >
           <h3>Important Information</h3>
           <div className="grid grid-2">
             <div className="card">
@@ -304,27 +227,6 @@ export default function Location() {
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-
-        <div style={{ textAlign: "center", marginTop: "3rem" }}>
-          <div className="cta-buttons">
-            <a
-              href="https://lu.ma/llsms183"
-              className="cta-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Register for Full Summit
-            </a>
-            <a
-              href="https://lu.ma/5277wsze"
-              className="cta-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Register for Adopter Days Only
-            </a>
           </div>
         </div>
       </section>
