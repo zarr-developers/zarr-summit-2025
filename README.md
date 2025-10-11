@@ -20,3 +20,7 @@ npm run build
 ```
 
 The built files will be output to the `out/` directory for static hosting.
+
+## License
+
+The code in this site is licensed under the MIT license. The license does not apply to assets in the `public` directory.
