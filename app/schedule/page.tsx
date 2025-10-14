@@ -206,6 +206,10 @@ export default function Schedule() {
                   Tobias Ferreira - Experiments at NOC with Browser-Based Zarr
                   Visualization
                 </li>
+                <li>
+                  Grid4Earth: Unifying DGGS and Zarr for Scalable, Interoperable
+                  Earth Data for DestinE and Copernicus Sentinel Data
+                </li>
               </ul>
               <p>
                 <strong>4:15 PM:</strong> Open Discussion: What does the
