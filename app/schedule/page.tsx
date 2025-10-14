@@ -207,7 +207,7 @@ export default function Schedule() {
                   Visualization
                 </li>
                 <li>
-                  Grid4Earth: Unifying DGGS and Zarr for Scalable, Interoperable
+                  Tina Odaka - Grid4Earth: Unifying DGGS and Zarr for Scalable, Interoperable
                   Earth Data for DestinE and Copernicus Sentinel Data
                 </li>
               </ul>
