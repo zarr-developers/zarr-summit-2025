@@ -222,7 +222,7 @@ export default function Schedule() {
                 <strong>5:00 PM:</strong> Day conclusion
               </p>
               <p>
-                <strong>5:30 - 7:30 PM:</strong> Networking reception
+                <strong>6 - 8 PM:</strong> Aperitivo (snacks and beverages)
               </p>
             </div>
             <div className="card adopter-card" style={{ marginTop: "2rem" }}>
