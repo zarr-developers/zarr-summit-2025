@@ -28,14 +28,6 @@ export default function RootLayout({
                   <a href="/zarr-summit-2025/">Home</a>
                 </li>
                 <li>
-                  <a href="/zarr-summit-2025/developer-summit">
-                    Developer Summit
-                  </a>
-                </li>
-                <li>
-                  <a href="/zarr-summit-2025/adopter-summit">Adopter Summit</a>
-                </li>
-                <li>
                   <a href="/zarr-summit-2025/location">Location</a>
                 </li>
                 <li>
