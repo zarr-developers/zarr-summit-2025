@@ -172,7 +172,7 @@ export default function Schedule() {
                 <strong>12:00 PM:</strong> Lunch (catered)
               </p>
               <p>
-                <strong>1:15 PM:</strong> Technical presentations: Tools
+                <strong>1:25 PM:</strong> Technical presentations: Tools
                 leveraging the Zarr data format
               </p>
               <ul style={{ marginLeft: "1.5rem" }}>
@@ -187,7 +187,7 @@ export default function Schedule() {
                 </li>
               </ul>
               <p>
-                <strong>2:00 PM:</strong> Panel: Zarr in Production
+                <strong>2:30 PM:</strong> Inverse Panel: Zarr in Production
               </p>
               <p>
                 <strong>2:45 PM:</strong> Break
@@ -214,10 +214,6 @@ export default function Schedule() {
                   Emmanuel Mathot - EOPF Explorer. Expand Zarr for dynamic vizualization of Copernicus Sentinel Data
                 </li>
               </ul>
-              <p>
-                <strong>4:15 PM:</strong> Open Discussion: What does the
-                community need from Zarr?
-              </p>
               <p>
                 <strong>4:45 PM:</strong> Wrap up & day 2 previews
               </p>
