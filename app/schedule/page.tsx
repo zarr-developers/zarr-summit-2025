@@ -207,11 +207,13 @@ export default function Schedule() {
                   Visualization
                 </li>
                 <li>
-                  Tina Odaka - Grid4Earth: Unifying DGGS and Zarr for Scalable, Interoperable
-                  Earth Data for DestinE and Copernicus Sentinel Data
+                  Tina Odaka - Grid4Earth: Unifying DGGS and Zarr for Scalable,
+                  Interoperable Earth Data for DestinE and Copernicus Sentinel
+                  Data
                 </li>
                 <li>
-                  Emmanuel Mathot - EOPF Explorer. Expand Zarr for dynamic vizualization of Copernicus Sentinel Data
+                  Emmanuel Mathot - EOPF Explorer. Expand Zarr for dynamic
+                  vizualization of Copernicus Sentinel Data
                 </li>
               </ul>
               <p>
@@ -234,21 +236,29 @@ export default function Schedule() {
                 <strong>9:00 AM:</strong> Registration & welcome coffee
               </p>
               <p>
-                <strong>9:10 AM:</strong> Workshop
+                <strong>9:15 AM:</strong> From first steps to production
               </p>
               <ul style={{ marginLeft: "1.5rem" }}>
-                <li>Choosing if Zarr is Right for You</li>
-                <li>Icechunk Deep Dive</li>
+                <li>Workshop: Icechunk Deep Dive</li>
+                <li>Breakout group: Choosing if Zarr is right for you</li>
               </ul>
               <p>
-                <strong>10:30 AM:</strong> Break
+                <strong>10:30 AM:</strong> Break <em>(30 minutes)</em>
               </p>
               <p>
-                <strong>10:45 AM:</strong> Workshop
+                <strong>11:00 AM:</strong> Virtual and native Zarr
               </p>
               <ul style={{ marginLeft: "1.5rem" }}>
-                <li>Virtual Zarr for archival file formats</li>
-                <li>Optimizing Zarr Performance</li>
+                <li>Workshop: Virtual Zarr for archival file formats</li>
+                <li>
+                  Breakout group: Native zarr features
+                  <ul style={{ marginLeft: "1.5rem", marginTop: "0.5rem" }}>
+                    <li>Sharding</li>
+                    <li>New data types</li>
+                    <li>Migrating to Zarr V3</li>
+                    <li>Chunk grids</li>
+                  </ul>
+                </li>
               </ul>
               <p>
                 <strong>12:00 PM:</strong> Lunch (catered)
@@ -257,35 +267,37 @@ export default function Schedule() {
                 <strong>1:00 PM:</strong> Lightning Talks
               </p>
               <p>
-                <strong>2:00 PM:</strong> Birds of a feather
+                <strong>2:00 PM:</strong> Fine-tuning for your interests
               </p>
               <ul style={{ marginLeft: "1.5rem" }}>
-                <li>Earth observation</li>
-                <li>Microscopy</li>
-                <li>Machine Learning</li>
-                <li>Weather forecasting and climate modeling</li>
+                <li>Workshop: Optimizing Zarr Performance</li>
+                <li>
+                  Birds of a feather:
+                  <ul style={{ marginLeft: "1.5rem", marginTop: "0.25rem" }}>
+                    <li>Machine Learning</li>
+                    <li>Visualization</li>
+                    <li>Earth sciences</li>
+                    <li>Microscopy</li>
+                  </ul>
+                </li>
               </ul>
               <p>
-                <strong>3:15 PM:</strong> Break <em>(15 minutes)</em>
+                <strong>3:00 PM:</strong> Break <em>(30 minutes)</em>
               </p>
               <p>
-                <strong>3:30 PM:</strong> Extending Zarr Breakouts
-              </p>
-              <ul style={{ marginLeft: "1.5rem" }}>
-                <li>Registered attributes</li>
-                <li>Data types</li>
-                <li>Codecs</li>
-                <li>Chunk grids</li>
-              </ul>
-              <p>
-                <strong>4:00 PM:</strong> Language/Technical Breakouts
+                <strong>3:30 PM:</strong> Birds of a feather: Zarr languages, or
+                build your own!
               </p>
               <ul style={{ marginLeft: "1.5rem" }}>
                 <li>Zarr in Rust</li>
                 <li>Zarr in Python</li>
                 <li>Zarr in R</li>
                 <li>Zarr in Julia</li>
+                <li>Or, build your own!</li>
               </ul>
+              <p>
+                <strong>4:00 PM:</strong> Zarr retrospective and vision driving
+              </p>
               <p>
                 <strong>4:30 PM:</strong> Closing Remarks
               </p>
