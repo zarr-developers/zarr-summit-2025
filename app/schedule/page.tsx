@@ -172,7 +172,7 @@ export default function Schedule() {
                 <strong>12:00 PM:</strong> Lunch (catered)
               </p>
               <p>
-                <strong>1:00 PM:</strong> Technical presentations: Tools
+                <strong>1:15 PM:</strong> Technical presentations: Tools
                 leveraging the Zarr data format
               </p>
               <ul style={{ marginLeft: "1.5rem" }}>
@@ -209,6 +209,9 @@ export default function Schedule() {
                 <li>
                   Tina Odaka - Grid4Earth: Unifying DGGS and Zarr for Scalable, Interoperable
                   Earth Data for DestinE and Copernicus Sentinel Data
+                </li>
+                <li>
+                  Emmanuel Mathot - EOPF Explorer. Expand Zarr for dynamic vizualization of Copernicus Sentinel Data
                 </li>
               </ul>
               <p>
